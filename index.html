@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>RandomMemer</title>
 </head>
+<!--                              Style Imports                       -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+    </style>
+
+    <!--                           Linking css                         -->
+
 <link rel="stylesheet" href="style.css">
+
+
 <body>
 
-    <!--                 HEAD                         -->
+    <!--                              HEAD                              -->
     <div class="head">This is My Random Meme Site
         <span class="span">Sunandhit Gupta</span>
     </div>
@@ -18,18 +27,33 @@
     <!-- ..........................Container........................................ -->
 
     <div class="container" id="ct">
-        <img class = "immg" id = "ig" src= "" alt="Funny Gif" width="100px">\   
+        <img class = "immg" id = "ig" src= "" alt="Loading Error" width="100px" >\   
     </div>
 
     <hr>
-    <!--           NEXT BUTTON                 -->
+    <!--                              Title div                   -->
+
+    <div class="titlediv" id="titlediv">
+        <span id="author" class="author"></span> :
+        <span class="title" id="title"></span>
+    </div>
+
+
+    <!--                           NEXT BUTTON                 -->
 
     <div class="next">
         <button onclick="show()" class="nxtbtn">NEXT</button>
 
+        <button id="subreddit" class="subreddit">Subreddit</button>
 
+        <button id="lkno" class="lkno">Likes</button>
+     
+        <button id="originalpost" class="originalpost"><a href="" id="anchorpost" class="anchorpost" target="_blank" >PostLink</a></button>
+    </div>
 
-
+    <!--                        Linking JavaScript              -->
+   
     <script src="index.js"></script>
+
 </body>
 </html>

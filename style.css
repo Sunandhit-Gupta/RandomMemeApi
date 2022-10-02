@@ -1,14 +1,17 @@
 *{background-color: black;
     user-select: none;
+    padding: 0;
+    margin: 0;
+    
 
 }
 .head{
     text-align: center;
     font-weight: bold;
-    margin: auto;
     width: 100vw;
     background-color: antiquewhite;
     font-size: 20px;
+   
     
 }
 .span{
@@ -22,35 +25,88 @@
 }
 .container{
     text-align: center;
-    height: 85vh;
+    height: 82vh;
     width: 100vw;
     background-color: black;
     margin-top: 10px;
 
 }
+.immg{
+    height: 80vh;
+    width: 80vw;
+    margin-top: 4px;
+    color: brown;
+    background-color: black;
+
+}
+.titlediv{
+    font-family: 'Alkalami', serif;
+    font-size: large;
+    text-align: center;
+    width: 100vw;
+    background-color: aliceblue;
+    
+}
+.author{
+    color: grey;
+    background-color:aliceblue;
+}
+.title{
+    background-color: aliceblue;
+    user-select: text;
+}
+
 
 .next{
     text-align: center;
     margin: auto;
+    width: 100vw;
     background-color: darkorange;
     flex-direction: column;
 }
 
 .nxtbtn{
+    font-weight: bolder;
     background-color: aqua;
-    border-color: aliceblue;
+    border-color: bisque;
+    border-radius: 1px;
     cursor: pointer;
     user-select: none;
     margin-top: 3px;
 }
-
-
-
-.immg{
-    height: 80vh;
-    width: 80vw;
-    margin-top: 4px;
-    background-color: black;
-
+.subreddit{
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    font-size: x-small;
+    pointer-events: none;
 }
+.lkno/* short form of like no.*/{
+    font-size: x-small;
+    font-weight: 600;
+    background-color:hotpink;
+    border-color:brown;
+    pointer-events: none;
+    user-select: none;
+    margin-top: 3px;
+}
+.originalpost{
+    background-color:rgb(217, 128, 21);
+    border-color:bisque;
+    cursor: pointer;
+    user-select: none;
+}
+.anchorpost{
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 1px;
+    background-color: rgb(133, 79, 13);
+    color: rgb(27, 27, 229);
+    text-decoration: none;
+    
+}
+
+
+
+
 
